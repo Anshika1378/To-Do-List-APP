@@ -58,8 +58,8 @@ input{
         width: 220px;
         cursor: pointer;
         margin-top: 20%;
-        margin-left: 4%;
-        margin-right: 5%;
+        margin-left: 10%;
+/*         margin-right: 5%; */
         /* padding: 15px; */
     }
     .input{
