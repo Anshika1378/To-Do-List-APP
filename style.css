@@ -44,6 +44,40 @@ input{
     text-align: left;
     padding: 7px;
 }
+/* Responsive a Mobile Device */
+@media(max-width:768px){
+    *{
+        /* padding: 0; */
+        margin: 0;
+    }
+    body{
+        width: 100%;
+    }
+    .container{
+        display: block;
+        width: 220px;
+        cursor: pointer;
+        margin-top: 20%;
+        margin-left: 4%;
+        margin-right: 5%;
+        /* padding: 15px; */
+    }
+    .input{
+        width: 220px;
+        height: auto;
+        font-size: 20%; 
+    }
+    
+    input{
+        width: 150px;
+        height: 15px;
+    }
+    button{
+        width: 55px;
+        height: 35px;
+        color: white;
+    }
+}
 .text ul i{
     position: absolute;
     right: 10px;
